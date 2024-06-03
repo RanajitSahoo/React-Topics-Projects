@@ -1,0 +1,13 @@
+.calculator{
+    background-color: rgb(59, 58, 58);
+    border:2px solid rgb(143, 142, 142) ;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 5px 5px 5px rgb(83, 82, 82);
+    
+}
+
+
+

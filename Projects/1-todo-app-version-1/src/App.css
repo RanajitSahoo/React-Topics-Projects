@@ -1,0 +1,15 @@
+h1{
+    font-weight: bold!important;
+    font-size: 50px!important;
+    margin: 10px!important;
+    margin-bottom: 60px!important;
+}
+input{
+    width: 100%!important;
+}
+.todo{
+    text-align: left;
+}
+.button{
+    width:100%;
+}
