@@ -1,0 +1,6 @@
+.counter{
+    
+    display: grid;
+    place-items: center;
+    margin:50px ;
+}
