@@ -10,14 +10,14 @@ import Sidebar from "./components/Sidebar";
 import PostListProvider from "./context-store/post-list-store/post-list-store";
 
 function App() {
-  const [selectedTab, setSelectedTab] = useState("Home");
+  
   return (
     <PostListProvider>
     <div className="app-container">
       <Header />
 
       <div className="app-content">
-        <Sidebar selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
+        <Sidebar />
         <div className="content">
           {selectedTab === "Home" ?<PostList/>:<CreatePost />}
           
